@@ -1,0 +1,62 @@
+    <div id="container">
+        <img src="https://png.pngtree.com/png-vector/20240529/ourlarge/pngtree-single-profile-icon-in-a-square-frame-illustration-vector-png-image_6951688.png" id="imagem1" alt="imagem">
+        <h1>Jonas Costa</h1>
+        <h2>Fortaleza CE, Brasil</h2>
+        <p>Desenvolvedor fullstack</p>
+        <div id="rodape">
+            <a href="https://google.com" target="_blank" class="btn">google</a>
+           
+            <a href="https://github.com/Jonassadm" target="_blank" class="btn">github</a>
+        
+            <a href="https://google.com" class="btn">google</a>
+          
+        </div>
+    </div>
+
+
+    body {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    width: 350px;
+    background-color: #11097c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    
+}
+
+#imagem1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+#rodape {
+    margin: 20px;
+}
+
+
+h1, h2, p {
+    color: white;
+}
+
+.btn {
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    transition: backgroung 0.2s;
+
+}
+
+
+
