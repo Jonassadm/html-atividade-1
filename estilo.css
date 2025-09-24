@@ -12,7 +12,8 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 16px;
+    padding: 12px;
     
 }
 
@@ -23,15 +24,44 @@ body {
     
 }
 
-#rodape {
-    margin: 20px;
+h1 {
+    font-size: 22px;
 }
 
+h2 {
+    font-size: 16px;
+    color: blueviolet;
+}
 
-h1, h2, p {
+p {
+    margin-bottom: 40px;
+}
+
+div {
     color: white;
 }
 
+.rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%; 
+    
+}
 
+a {
+    background-color: rgb(42, 85, 85);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition-duration: 200ms;
+}
+
+a:hover {
+    background-color: blueviolet;
+    transition-duration: 200ms;
+}
 
 
