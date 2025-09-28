@@ -1,20 +1,4 @@
-    <div id="container">
-        <img src="https://png.pngtree.com/png-vector/20240529/ourlarge/pngtree-single-profile-icon-in-a-square-frame-illustration-vector-png-image_6951688.png" id="imagem1" alt="imagem">
-        <h1>Jonas Costa</h1>
-        <h2>Fortaleza CE, Brasil</h2>
-        <p>Desenvolvedor fullstack</p>
-        <div id="rodape">
-            <a href="https://google.com" target="_blank" class="btn">google</a>
-           
-            <a href="https://github.com/Jonassadm" target="_blank" class="btn">github</a>
-        
-            <a href="https://google.com" class="btn">google</a>
-          
-        </div>
-    </div>
-
-
-    body {
+body {
     background-color: beige;
     display: flex;
     justify-content: center;
@@ -28,7 +12,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 16px;
+    padding: 12px;
     
 }
 
@@ -39,25 +24,49 @@
     
 }
 
-#rodape {
-    margin: 20px;
+h1 {
+    font-size: 22px;
 }
 
+h2 {
+    font-size: 16px;
+    color: blueviolet;
+}
 
-h1, h2, p {
+p {
+    margin-bottom: 40px;
+}
+
+div {
     color: white;
 }
 
-.btn {
-    background-color: #007bff;
-    padding: 10px 20px;
-    border-radius: 8px;
-    color: white;
+.rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%; 
+    
+}
+
+a {
+    background-color: rgb(42, 85, 85);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
     text-decoration: none;
-    transition: backgroung 0.2s;
+    color: white;
+    transition-duration: 200ms;
+}
 
+a:hover {
+    background-color: blueviolet;
+    transition-duration: 200ms;
 }
 
 
-alt shift F - indentar
+
+
+alt shift F = indentar
+alt ^ = sobe a linha que tiver selecionado
 
